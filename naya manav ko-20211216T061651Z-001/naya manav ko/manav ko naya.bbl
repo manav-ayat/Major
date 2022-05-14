@@ -1,0 +1,109 @@
+\begin{thebibliography}{10}
+
+\bibitem{ref6}
+A.~Al-Waisy, M.A. Mohammed, S.~Al-Fahdawi, M.~Maashi, B.~Garcia-Zapirain, K.H.
+  Abdulkareem, S.~Mostafa, N.M. Kumar, and D.N. Le.
+\newblock Covid-deepnet: Hybrid multimodal deep learning system for improving
+  covid-19 pneumonia detection in chest x-ray images.
+\newblock page 2409–2429, 2021.
+
+\bibitem{ref9}
+T.~Asai.
+\newblock Covid-19: Accurate interpretation of diagnostic tests—a statistical
+  point of view.
+\newblock 2021.
+
+\bibitem{ref13}
+K.~Chatfield, K.~Simonyan, A.~Vedaldi, and A~Zisserman.
+\newblock Return of the devil in the details: Delving deep into convolutional
+  nets.
+\newblock 2014.
+
+\bibitem{ref5}
+S.~Chavez, B.~Long, A.~Koyfman, and S.Y. Liang.
+\newblock Coronavirus disease (covid-19): A primer for emergency physicians.
+\newblock {\em Am. J. Emerg. Med}, 44(12):220--229, 2021.
+
+\bibitem{ref12}
+N.N. Das, N.~Kumar, M.~Kaur, V.~Kumar, and D.~Singh.
+\newblock Automated deep transfer learning-based approach for detection of
+  covid-19 infection in chest x-rays.
+
+\bibitem{ref10}
+G.~Gaál, B.~Maga, and A.~Lukács.
+\newblock Attention u-net based adversarial architectures for chest x-ray lung
+  segmentation.
+\newblock page 2409–2429, 2020.
+
+\bibitem{ref2}
+A.E. Gorbalenya, R.~Baker, S.C.and~Baric, R.J.d. Groot, C.~Drosten, B.L.
+  Gulyaeva, A.A.a nd~Haagmans, C.~Lauber, A.M. Leontovich, and B.W. Neuman.
+\newblock Severe acute respiratory syndrome-related coronavirus.
+\newblock {\em The species and its viruses—A statement of the Coronavirus
+  Study Group}, 2020.
+
+\bibitem{ref18}
+M.E Hemdan, E.E.D.M.A.S.;~Karar.
+\newblock Covidxnet: A framework of deep learning classifiers to diagnose
+  covid-19 in x-ray images.
+\newblock 2020.
+
+\bibitem{ref1}
+M.~Humayun and A.~Alsayat.
+\newblock Prediction model for coronavirus pandemic using deep learning.
+\newblock {\em Comput. Syst. Sci. Eng}, 2022.
+
+\bibitem{ref4}
+M.I. Khalil, S.~Tehsin, M.~Humayun, N.~Jhanjhi, and M.A Zain.
+\newblock Multi-scale network for thoracic organs segmentation.
+\newblock {\em Comput. Mater. Contin}, 70:3251–3265, 2022.
+
+\bibitem{ref16}
+G.~Litjens, T.~Kooi, B.E. Bejnordi, A.A.A. Setio, F.~Ciompi, M.~Ghafoorian,
+  J.A. Van Der~Laak, B.~Van~Ginneken, and C.I. Sánchez.
+\newblock A survey on deep learning in medical image analysis.
+\newblock 42:60--88, 2017.
+
+\bibitem{ref11}
+A.~Narin, C.~Kaya, and Z.~Pamuk.
+\newblock Automatic detection of coronavirus disease (covid-19) using x-ray
+  images and deep convolutional neural networks. p.
+\newblock 24:1207–1220, 2021.
+
+\bibitem{ref20}
+M.; Yildirim E.A.; Baloglu U.B.; Yildirim O.; Acharya~U.R. Ozturk, T.;~Talo.
+\newblock Automated detection of covid-19 cases using deep neural networks with
+  x-ray images.
+\newblock 121, 2020.
+
+\bibitem{ref15}
+D.~Shen, G.~Wu, and H.I Suk.
+\newblock Deep learning in medical image analysis.
+\newblock 19:221--248, 2017.
+
+\bibitem{ref14}
+K.~Simonyan and A.~Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock 2014.
+
+\bibitem{ref3}
+S.B. Stoecklin, P.~Rolland, Y.~Silue, A.~Mailles, C.~Campese, A.~Simondon,
+  M.~Mechain, L.~Meurice, M.~Nguyen, and C.~Bassi.
+\newblock First cases of coronavirus disease 2019 (covid-19) in france:
+  Surveillance, investigations and control measures.
+\newblock {\em Journal of ambient intelligence and humanized computing}, pages
+  1--15, January 2020.
+
+\bibitem{ref17}
+L.~Wang, Z.Q. Lin, and A.~Wong.
+\newblock Covid-net: A tailored deep convolutional neural network design for
+  detection of covid-19 cases from chest x-ray images.
+\newblock 10:1--12, 2020.
+
+\bibitem{ref19}
+Y.; Li Y.; Shen C.; Xia~Y Zhang, J.;~Xie.
+\newblock Covid-19 screening on chest x-ray images using deep learning based
+  anomaly detection.
+\newblock 2020.
+
+\end{thebibliography}

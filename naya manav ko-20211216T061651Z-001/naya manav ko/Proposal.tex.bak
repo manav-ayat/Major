@@ -1,0 +1,386 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry} 
+\usepackage{amsfonts, amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage[skip = 8pt,tableposition=top, figureposition=bottom]{caption}
+\usepackage{hyperref}
+\usepackage[section]{placeins}
+\usepackage{setspace}
+\usepackage{acro}
+\makeatletter
+\def\@makechapterhead#1{%
+  %\vspace*{50pt}%
+  {  \MakeUppercase{\ifnum \c@secnumdepth >\m@ne
+        \fontsize{16pt}{1}\bfseries \@chapapp \space \thechapter\vspace{5pt}\\
+    \fi
+    \interlinepenalty\@M
+     \bfseries #1}\par\nobreak
+    %\vskip 0pt
+  }}
+  \makeatletter
+% Redefine the \chapter* header macro to remove vertical space
+\def\@makeschapterhead#1{%
+  %\vspace*{50\p@}% Remove the vertical space
+  {\newpage \parindent \z@ \raggedright
+    \normalfont
+    \interlinepenalty\@M
+    \center \fontsize{16pt}{1} \bfseries \MakeUppercase{#1}\par\nobreak
+    %\vskip 18\p@ % adjust space after heading 18pt
+  }}
+\parindent 0cm  %for noparagraoh identation
+\setlength{\parskip}{0.5cm} % for paragrapg spacing
+\linespread{1.5} % for line spacing
+\renewcommand\contentsname{Table of Contents}
+\begin{document}
+   \begin{center}
+   \textbf{KANTIPUR ENGINEERING COLLEGE}\\
+   (Affiliated to Tribhuvan University)\\
+   Dhapakhel,Laliptur\\
+   \vfill
+   \begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=1]{kec1.jpg}
+   \end{center}
+  \end{figure}
+  \vfill
+  
+  {[Subject Code:EX654]}\\
+  A FINAL YEAR PROJECT ON\\
+  \textbf{INTENSIVE COVID CARE SYSTEM}\\
+  \vfill
+  
+  Submitted by:\\
+ Kundan KC \quad \quad \quad \quad \quad[074--BEX--08]\\
+ Regan Maharjan     \quad\quad\quad[074--BEX--17]\\
+  Rupesh Pun  \quad\quad\quad\quad\space\space\space[074--BEX--20]\\
+ 
+  \vfill
+  
+  A MAJOR PROJECT PROPOSAL REPORT\\
+  \vfill
+  
+  Submitted to:\\
+  Department of Computer and Electronics Engineering\\
+  \vfill 
+   \today
+   \thispagestyle{empty} % for removing page no.
+  \end{center}
+  \pagebreak
+  \pagenumbering{roman}
+  \addcontentsline{toc}{chapter}{\numberline{i}Abstract}%
+ 
+  \chapter*{Abstract}
+ 
+Intensive Covid Care system play vital role in intensive care unit of Covid patient. The proposed system helps in medical ventilation which enhances the breathing of Covid pneumonia patient, The system monitor the  things like oxygen level, temperature, heartbeat, heart abnormalities for the Covid patient. Also, the electronic stethoscope can be used by any health worker which may reduce doctor presence for certain time, The sound produce by stethoscope bell can be analyzed with normal or infected sound and can detect whether the person is infected or not, The sound is recorded and send to doctor so that doctor can diagnosis virtually. X-ray report can be analyzed through image processing to detect covid pneumonia or non-covid which reduce the workload of radiologist or Doctor. 
+
+\section*{Keywords}  
+Ventilator, Health Monitoring, Electronic-stethoscope, X-Ray Image Processing
+\pagebreak
+
+\chapter*{Acknowledgment} 
+
+We are thankful to the Department of Electronic and Communication Engineering, Kantipur Engineering College and Er. Sujin Gwachha for the providing this platform for us.
+Our thanks and gratitude to our colleagues in developing the project and Our respected Lecturer who have willingly helped us.
+\\
+ We have made every attempt to make this report informative and helpful for understanding. We would accept suggestion and recommendation regarding to this report that can help us in future.
+\addcontentsline{toc}{chapter}{\numberline{ii}Acknowledgements}%
+
+\tableofcontents
+
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+\pagenumbering{gobble}
+\thispagestyle{empty}
+\pagebreak
+\listoffigures
+\thispagestyle{empty}
+\pagebreak
+\listoftables
+\thispagestyle{empty}
+\pagebreak
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introduction}
+
+Corona virus Infectious Disease - 2019 (COVID – 19) is caused by the Severe Acute Respiratory Syndrome Corona virus 2 (SARS-CoV-2) affecting millions and killing tens of thousands of individuals around the globe.Due to SARS-CoV-2, more than 3 million deaths have been confirmed worldwide. In Nepal more than 640 thousand cases were reported with more than nine thousand deaths from the disease by July 5th, 2021.\cite{ref0}\hspace{0.1cm} Some people may be affected by Corona in drastic manner which need proper medical care. These system is proposed to care the patient with required monitoring and digital report analysation.  
+\section{Overview}
+
+The proposed system include four different parts i.e ventilator which enhances the breathing for the patient who has low oxygen saturation level where manual ventilator is make embedded with help of compressor, Health monitoring which monitor the body temperature,Oxygen level,Pulse,heart abnormalities which will be monitored by respected sensors , Electronic stethoscope is used to record the trachea sound and can be sent to physician for diagnosis where virtual diagnosis will be posssible and  X-ray image processing is done to detect the pneumonia caused by covid as it scan the x ray report in image format and analyse the image . 
+\section{Background}
+This proposed project is to provide a specialist consensus on specific management of COVID-19 in intensive care, covering from the admission criteria in the intensive care units (ICU)  with sections on ventilatory. The demand of Covid care system in intensive care unit is very high, as a result cheap,  portable embedded bio medical equipments play the vital role for caring the people who are affected venomously. The proposed system have intelligent patient monitoring system for monitoring the patients’ health condition automatically through sensors based connected networks. This system is specially designed for Covid-19 patients. Several sensors are used for gathering the biological behaviors of a patient where the health worker may take the respected action in accordance with the respected report, The proposed system do medical ventilation which demand has ramped up for mechanical breathing enhancement to the person whose oxygen saturation level is low. In order to reduce the workload of the doctor the virtual diagnosis is purposed which record the respiration sound with graphical plot which will be more beneficial to the person during home isolation as Patient don't need to go hospital most of the time also X-ray report can be analyzed digitally through image processing which detect the covid pneumonia to reduce the workload of doctors and radiologist. The proposed system is divided into four different parts which are given below:   
+\subsection{Medical Ventilation}
+
+As Corona Virus infect the lungs air sacs of the people which reduce the oxygen level where people will be unable to breathe which may lead to dead so ventilator enhances the air sacs of lungs. This Non-invasive ventilation is delivered using facemasks nasal masks, which push a set amount of pressurized air into the lungs. This supports the natural breathing process when disease has caused the lungs to fail, enabling the body to fight infection and get better. The proposed ventilator provide normal BPM(Breathe Per minute) to the patient which may be more usable in emergency condition.    
+\subsection{Health Monitoring}
+
+According to National Medical Health council The main monitoring criteria for covid patient who need intensive care are Temperature level,Heart Beat,Oxygen level and ECG(Electrocardiogram). \cite{ref1}\hspace{0.1cm}The proposed system measure this all mentioned  criteria through respective sensor and display in proper manner. The proposed project is to take remote health measurements and share them with the doctor so that he/ she can monitor them from anywhere at anytime. This system could also be used in intensive care unit. 
+\subsection{Electronic Stethoscope}
+As the doctor stethoscope and presses chest piece against your patient front and back to carefully listen to his/her lungs. This is only possible physically i.e. patient have to attend physcially for this diagnosis. So,Electronic stethoscopes is proposed which empower doctors via telemedicine to treat more people in virtual manner.In this project,sound is recorded and sent to doctor where doctor can listen the sound where virtual consultation will be much more effective.
+\subsection{X-Ray Image Processing}
+Chest X-ray is used to diagnose the chest-related diseases like pneumonia and other lung diseases as it provides the image of the thoracic cavity, consisting of the chest and spine bones along with the soft organs including the lungs, blood vessels, and airways. The X-ray imaging technique provides numerous advantages as an alternative diagnosis procedure for COVID-19 over other testing procedures. As Covid affect the lungs and lead to the pneumonia the X-ray of chest is important test for Covid patient hence chest x-ray analysation is possible through image processing which detect the Covid pneumonia as a result any health worker or patient care taker can detect covid infection or non covid easily 
+\section{Problem Statement}
+Patients with the severe form of the disease must be closely monitored, since rapidly progression from moderate to severe ARDS may occur. Acute hypoxemic respiratory failure is the most common complication occurring in 60–70\% of patients admitted to the ICU. \cite{refa}\hspace{0.1cm}Intensive care system is in limited number in Nepal as a result the Covid mortality rate was and will be increased during period of  state of Covid health emergency  this problem should be overcome by making the system in large amount which may tackle problem in state of heath emergency. Surrounded by the global crisis caused by the corona virus pandemic, hospitals and healthcare facilities are reporting shortages of vital equipments. As makers it's our responsibility to combat the shortage by constructing makeshift-open-source substitute devices. Our country might be in a lock down but our ingenuity isn't. Covid positive people who are isolated in home also need proper and guidance, and virtual consultation was prioritize even but it was not effective as doctor only diagnosis on the patient statement. If doctor could listen the respiratory sound like normal respiration or respiration with crackles (rales), wheezes (rhonchi), stridor etc, Doctor can detect the level of severity virtually too. So,in-order to make virtual diagnosis more effective the electronic stethoscope is proposed. This could even save the doctor time during the period of the health emergency, As doctor demand and radiologist demand is high during peak hour of corona pandemic, If the detection of covid pneumonia can be done digitally , it will help the doctor to tackle the problem also save the time, so to solve these problem x-ray image processing is proposed. 
+\section{Objectives}
+
+The objectives of proposed project are given below:
+\begin{itemize}
+\item To build Ventilator with embedded BPM.
+\item To build Health monitoring like temperature,Pulse,ECG,SP$O_2$
+\item To Analyze X-Ray report through image processing and recording trachea sound
+\end{itemize}
+\section{Project Features}
+\
+The features of proposed projects are given below:
+\begin{itemize}
+\item External medical ventilator enhances the respiration of Covid patients
+\item The health monitoring system measures the vital criteria like temperature,Pulse,ECG,SP$O_2$
+\item X-ray report image processing to detect Covid-pneumonia or non-Covid
+\item Electronic stethoscope for recording trachea sound with graphical plot.
+\end{itemize}
+\section{Feasibility}
+
+Feasibility can be categorize into three different Parts:
+\subsection{Economical Feasibility}
+The components required for this project are feasible from perspective of economy view. So,cost estimation of this project is low and reasonable.All the components used in our system are easily available in the market. The budget required to accomplish the project is not heft. The building time is less too. Hence, This proposed system is economically feasible for the patient. 
+\subsection{Technical Feasibility}
+In technical term,Hardware is easily available if not alternatively used modules can be easily interface with processing unit. There is open source data set for voice and image processing.They are easy to interface and building up the system will not be a bulky task hence if needed mass manufacturing can be done as well. 
+\subsection{Operational Feasibility}
+This proposed system requires minimum operational skills so it is user friendly and easy to use. The main aspect of this project is to observe the patient and take regular reading from the sensor so there is not much operational skill for the operation.So it is operationally feasible in intensive Covid care unit.
+
+\chapter{Literature Review}
+
+In the 16th century, Flemish physician Andreas Vesalius describe sophisticating animal 
+could be kept alive by inserting a tube into its trachea and blowing air to inflate its lungs although in 1555,this procedure didn't warrent much acclaim but today this became a crucial practice in modern medicine.\cite{ref2} \hspace{0.1cm}Ventilater aren't use as standard treatment as repeated ventilation can cause long term lung damage but in extreme condition ventilators can be the difference between life and deaths and events like the Covid-19 pandemic have shown more essential than we thought because current models are expensive,most hospitals have few in supply.\cite{ref3}\hspace{0.1cm} The world urgently needs more low-cost and portable ventilators, as well as faster means of producing and distributing this life saving technology.\cite{ref4}\hspace{0.1cm}The novel ventilator consists of an inspiratory limb an expiratory limb valves derived from a self-inflating bag system. An Arduino Uno microcontroller controls a solenoid valve that can be programmed to open and close to produce a set respiratory rate.\cite{ref5} \\
+Monitoring of health of Covid patient helps in preventing the Covid spreading as well as to get a proper diagnosis of the state of health. For the proper monitor the severe patient medical institution mostly need to measure oxygent level,temperature,heart beat and heart condition,So that diagnosis can be done properly in intensive covid care management.Niloofar design design a werable band which measures the respected health criteria through sensors and also notify if there is critical conditio\cite{ref6}\hspace{0.1cm} In 2019 Carter design the health monitoring systems that measure SP$O_2$ and pulse that analyses and made estimates regarding the shift to telemedicine during the COVID-19 pandemic.\cite{ref7}
+ \\A smart digital-stethoscope system to monitor patient’s heart and lungs sounds and detect any abnormality in a real-time manner,Chowdhary designed the electronic stethosscope which give the graphical representation of the human heartbeat of respected chamber. \cite{ref8}\hspace{0.1cm}  In 2020, Turkey laboratory made stethoscope which is paired with a smartphone app that tells the user where to properly position the stethoscope, which then collects audio from the procedure.\cite{ref9} \\ Biomedical image processing is a very broad field; it covers biomedical signal gathering, image forming, picture processing, and image display to medical diagnosis based on features extracted from images, Matthew group made the medical image processing for the lung cancer detection by collecting the sample over 200 numbers.\cite{ref10}\hspace{0.1cm} In Hungary a project was develop on a software background for  basic and applied research in the field of medical imaging that can be used in clinical routine, as well as Realization was based on the experience of information technology and medical imaging research university teams and a company specialized on software and hardware developing for nuclear medicine.\cite{lastref}
+\chapter{System Requirement}
+
+\section{Software Requirement}
+
+\subsection{Python IDE}
+Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.
+\subsection{Arduino IDE}
+The Arduino Software (IDE) includes a text editor for writing code, a message area, a text console, a toolbar with buttons for basic functions, and a series of menus. It communicates with the Arduino and Genuino devices by connecting to them and uploading code. Sketches are programs created with the Arduino Software (IDE). These sketches were created with a text editor and saved with the.ino file extension. The message section indicates faults and provides feedback while storing and exporting. The Arduino Software (IDE) outputs text to the console, which includes detailed error messages and other information.
+\subsection{Proteus}
+The Proteus Design Suite is an EDA tool that includes modules for schematic capture, simulation, and PCB layout. It is a schematic capture, microcontroller simulation, and PCB design CAD design program. The entire circuit is simulated in this Cad designing program prior to hardware implementation, and the product is built based on the results. 
+\section{Hardware Requirement}
+\subsection{Arduino}
+Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output - activating a motor, turning on an LED, publishing something online. It can tell your board what to do by sending a set of instructions to the microcontroller on the board. 
+\begin{figure}[h] % h means here
+   \begin{center}
+   \includegraphics[scale=1]{fig1.jpg}
+   \caption{Arduino}
+  \end{center}
+  \end{figure}
+  
+\subsection{Stethoscope}
+The stethoscope is an acoustic medical device for auscultation, or listening to internal sounds of an animal or human body. It typically has a small disc-shaped resonator that is placed against the skin, and one or two tubes connected to two earpieces. A stethoscope can be used to listen to the sounds made by the heart, lungs or intestines, as well as blood flow in arteries and veins.
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.1]{stet.png}
+   \caption{Stethoscope}
+  \end{center}
+  \end{figure} 
+\subsection{ Wiper Motor}
+The car wiper motor is the component that powers the windshield wipers. As it spins, a mechanism built to it rotates a worm gear, arm and, finally, the windshield or windscreen wiper blades. The wiper blades then rid the windscreen of water, snow, dust, or any other debris that may affect visibility when driving.
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.3]{car.jpg}
+   \caption{Wiper motor}
+  \end{center}
+  \end{figure} 
+\subsection{Microphone}
+This fully assembled and tested board comes with a 20-20KHz electret microphone soldered on. For the amplification, we use the Maxim MAX4466, an op-amp specifically designed for this delicate task! The amplifier has excellent power supply noise rejection, so this amplifier sounds really good. This breakout is best used for projects such as voice changers, audio recording/sampling, and audio-reactive projects.
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.75]{micro.jpg}
+   \caption{Micro Phone}
+  \end{center}
+  \end{figure} 
+\subsection{ECG}
+ECG (Electrocardiogram) sensor records the pathway of electrical impulses through the heart muscle, and can be recorded on resting and ambulatory subjects, or during exercise to provide information on the heart's response to physical exertion. This sensor is used to measure the electrical activity of the heart due to contraction and relaxation of heart. Electrical activity can be charted as electrocardiogram and output as an analog reading.
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.6]{ecg.jpg}
+   \caption{ECG sensor}
+  \end{center}
+  \end{figure} 
+\subsection{MAX30100}
+The MAX30100 is a sensor that combines pulse oximetry and a heart rate monitor. It detects pulse oximetry and heart rate signals using two LEDs, a photo detector, improved optics, and low-noise analog signal processing. It’s an optical sensor that derives its readings from emitting two wavelengths of light from two LEDs – a red and an infrared one – then measuring the absorbance of pulsing blood through a photo detector. This particular LED colour combination is optimized for reading the data through the tip of one’s finger. 
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.3]{oxi.png}
+   \caption{Oximeter}
+  \end{center}
+  \end{figure} 
+\subsection{Temperature Sensor}
+The MAX30205 temperature sensor accurately measures
+temperature and provide an overtemperature alarm/interrupt/shutdown output. This device converts the temperature measurements to digital form using a highresolution, sigma-delta, analog-to-digital converter (ADC).
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=0.4]{tem.jpg}
+   \caption{Temperature sensor}
+  \end{center}
+  \end{figure} 
+
+
+\chapter{Methodology}
+
+As this projects includes four independent health related systems (Ventilator ,Electronic sthethoscope ,health monitoring and Covid-19 detection with x-rays using image processing) which helps in controlling ,monitoring and early detection of covid-19 virus infection.Each and every portion of this project works independently and ultimately works as a intensive care system for covid patients.
+\section{Ventilator}
+The ventilator will be design and develop using arduino encompasses all these requirements to develop a reliable yet affordable DIY ventilator to help in times of pandemic.We here use a silicon ventilator bag coupled driven by DC wiper motors with 2 side push mechanism to push the ventilator bag. We use toggle switch for switching and a variable pot to adjust the breath length and the BPM value for the patient.
+Our system makes use of blood oxygen sensor along with sensitive pressure sensor to monitor the necessary vitals of the patient and display on a Lcd screen. Also an emergency buzzer alert is fitted in the system to sound an alert as soon as any anomaly is detected.The entire system is driven by arduino controller to achieve desired results and to assist patients in COVID pandemic and other emergency situations.
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=1]{method1a.jpg}
+   \caption{Block diagram for medical ventilation}
+  \end{center}
+  \end{figure}
+  \section{Health Monitoring}
+  In the health monitoring system, there are various sensor implemented together such as ECG, Sp02 and Temperature sensor which helps in monitoring and inspecting various health conditions of the patient.
+  \begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=1]{method2.jpg}
+   \caption{Block diagram for Health monitoring}
+  \end{center}
+  \end{figure}
+\subsection*{ECG Sensor}
+An ECG is a paper or digital recording of the electrical signals in the heart.AD8232 will be connected to Breakout to an Arduino microcontroller. A simple cardiac monitor will be built that will allow you to measure the electrical activity of the heart in real time!
+
+\subsection*{Temperature sensor:}
+In this project, MAX30205 human body temperature sensor will be interface that can be easily interfaced for medical purposes. Arduino uno will be used as the main micro-controller unit and also use oled displays to show the sensed temperature in Fahrenheit. 
+
+\subsection*{Sp02 Sensor}
+In this project  MAX30100 Pulse Oximeter Sensor will be Interfacing with Arduino Uno that can measure Blood Oxygen and Heart Rate and display it on Oled Display. The blood Oxygen Concentration termed as SpO2 is measured in Percentage and Heart Beat/Pulse Rate is measured in BPM. The MAX30100 is a Pulse Oximetry and heart rate monitor sensor solution.
+\section{Electronic stethoscope}
+\begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=1]{method3.jpg}
+   \caption{Block diagram for electronic stethoscope}
+  \end{center}
+  \end{figure}
+The major objective of this device is to receive the heart beart from the chest piece of stethoscope and store the audio for future use or for telemedicine purpose where the audio is transferred to the medical personnel for further inspection.For further detailed information,the intensity of the heartbeat received in the form of audio signal is also represented in the graph which helps to extract further vital information about the health condition of the patient. It consists of chestpiece (Diaphagram and Bell) of a normal stethoscope as a major part which receives the heart beat from the patient along with arduino,microphone sensor and sd card module . The sound from the chest piece is received by the microphone sensor of arduino which is then amplified or conditioned to remove the noise applying appropriate filters if necessary and then it is directed for storage,graphing or transmitting purpose. 
+
+\section{X-ray Image Processing}
+
+ X-ray report obtain from  electromagnetic form of penetrating radiation is analysed through image processing.In this work, an automatic diagnostic system has been developed using CNN which uses chest X-ray analysis results to diagnose whether a person is COVID-19-affected or normal.The study begins with collection of primary dataset containing two image classes: one class belonged to chest X-rays of COVID-19-confirmed cases and the other class of images belonged to the normal people without the disease. The open source dataset is concerned medical professionals analysed the dataset and removed some of the X-ray images which were not clear in terms of quality and diagnostic parameters which result dataset very clean, as each X-ray image was of good quality as well as clear in terms of significant diagnostic parameters according to their expertise.The dataset will be augmented to increase its size. The resulted dataset is used to train the model in the next phase. After training, the model will be tested for its performance in the disease detection. The testing of proposed CNN model has been done using test dataset held from the primary dataset as well as using the independent validation dataset.
+ \begin{figure}[h]
+\begin{center}
+   \includegraphics[scale=1]{method4.jpg}
+   \caption{Block diagram for X-Ray image processing}
+  
+  \end{center}
+  \end{figure}
+ 
+  
+  \section{System Flowchart}
+  \FloatBarrier
+ 
+ \begin{figure}[h]
+ \vspace{-2in}  % h means here
+\subsection{Medical ventilation}  
+   \begin{center}
+   \vfill
+   \includegraphics[scale=1]{flow1.jpg}
+   \caption{Flow chart for embedded ventilator}
+  \end{center}
+  \end{figure}
+  
+   
+ \begin{figure}[h]  % h means here
+ \vspace{-6cm}
+ \subsection{Health Monitoring system}
+   \
+   \vfill
+   \includegraphics[scale=1.3]{flow2.jpg}
+   \caption{Flow chart for Health monitoring system}
+ 
+  \end{figure}
+    
+   
+ \begin{figure}[h]  % h means here
+  \vspace{-49mm}
+ \subsection{Electronic stethoscope}
+ 
+   \begin{center}
+   \includegraphics[scale=1]{flow3.jpg}
+   \caption{Flow chart for electronic stethoscope}
+  \end{center}
+  \end{figure}
+
+  
+ \begin{figure}[h]  % h means here
+ \vspace{-1cm}
+  \subsection{X-ray image processing}
+   \begin{center}
+   \includegraphics[scale=1]{flow4.jpg}
+   \caption{Flow chart for X-ray image processing}
+  \end{center}
+  \end{figure}
+\chapter{Epilogue}
+\section{Expected Outcome}
+The main objective of this project is to control ,monitor and help in early detection of covid-19 virus infection, for which the following mentioned outcomes or results are highly expected:
+\begin{itemize}
+\item The system shall have the ability to monitor the certain health parameters such as pulse,oxygen level,temperature at real time as accurately as possible.
+\item It should be able to provide the ventilator service to the patients based on the oxygen level which is measured by the monitoring  system.
+\item It should be able to represent and store the exact pulse from the chest piece in digital form without any noise or errors.
+\item It should be able to detect the covid-19 Infected patients from the X-ray images using convolution neural network (CNN) as efficiently and accurately as possible.
+\end{itemize}
+
+\section{Application}
+\begin{itemize}
+\item It can be used in remote health care services.\item It enhances the use of telemedicine or e-medicine among the general population.
+\item Early detection and prevention of Covid-19 can be done.
+\item Due to the low cost and portability it can be implemented in any organization's first aid support.
+\end{itemize}
+\pagebreak
+\section{Budget Analysis}
+\begin{table}[h]%h refers for here 
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+	
+	\hline
+	\textbf{SN} & \textbf{Hardware Required} & \textbf{Quantity} & \textbf{Unit Price} &\textbf{ Total}\\
+	\hline
+	1 & Arduino & 3 & 900 & 2700 \\
+	\hline
+	2 & OLed & 1 & 1600 & 1600\\
+	\hline
+	3 & 16*2 LCD & 1 & 200 & 200\\
+	\hline
+	4 & Microphone Module  & 1 & 200 & 200\\
+	\hline
+	5 & ECG Sensor(AD8232) & 1 & 2100 & 2100 \\
+  \hline
+   6 & Temperature Sensor (max 30205) & 1 & 1200 & 1200\\
+\hline
+   7 & Sp$O_2$ Sensor(max  30100) & 1 & 1600 & 1600\\
+\hline
+   8 & Stethoscope Chest piece & 1 & 750 &750\\
+\hline
+   9 & Sd card module & 1 & 200 & 200\\
+\hline
+10 & Wiper motor & 1 & 850 & 850\\
+\hline
+Total: & * & * & * & 11,600 \\
+\hline
+\end{tabular}
+\caption{Budget Analysis }
+\label{aaa}
+
+\end{table}
+\section{Work Schedule}
+ The work schedule followed for various parts of our project is shown in following chart:\\ \\
+ \begin{figure}[h]  % h means here
+   \begin{center}
+   \includegraphics[scale=1]{gant.jpg}
+   \caption{Gantt Chart}
+  \end{center}
+  \end{figure}
+  \pagebreak
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliographystyle{unsrt}
+\bibliography{reference.tex.bak}
+\end{document}

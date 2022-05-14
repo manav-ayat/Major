@@ -1,0 +1,47 @@
+\contentsline {chapter}{\hbox to\@tempdima {i\hfil }Abstract}{i}{figure.caption.1}%
+\contentsline {chapter}{\hbox to\@tempdima {ii\hfil }Acknowledgements}{ii}{chapter*.4}%
+\thispagestyle {empty}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Background}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problem Statement}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectives}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Project Features}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Feasibility}{3}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Economical Feasibility}{3}{subsection.1.6.1}%
+\contentsline {subsection}{\numberline {1.6.2}Technical Feasibility}{4}{subsection.1.6.2}%
+\contentsline {subsection}{\numberline {1.6.3}Operational Feasibility}{4}{subsection.1.6.3}%
+\contentsline {chapter}{\numberline {2}Literature Review}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1} Sanitizing Machine in Market}{6}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1} Fogger Machine}{6}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2} UV sterilizing Machine}{6}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}System Requirement}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Software Requirement}{7}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Python IDE}{7}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Arduino IDE}{7}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Hardware Requirement}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Arduino}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Infrared Thermometer}{9}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Car Wiper Motor}{9}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Raspberry Pi}{10}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}IR proximity sensor:}{11}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}MAX30100}{11}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7} Pump Motor}{12}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Temperature Sensor}{13}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}UV-C Tube Light}{13}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}USB Web Cam}{14}{subsection.3.2.10}%
+\contentsline {chapter}{\numberline {4}Methodology}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Block Diagram}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Temperature Sensor}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}UV-C tube}{16}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Logistic Regression}{16}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Convolutional Neural Networks}{17}{subsection.4.1.4}%
+\contentsline {subsubsection}{VGGNet-16}{18}{section*.25}%
+\contentsline {subsection}{\numberline {4.1.5}SP02 Sensor}{19}{subsection.4.1.5}%
+\contentsline {chapter}{\numberline {5}Epilogue}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Expected Outcome}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Application}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Budget Analysis}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Work Schedule}{21}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Work Completed}{22}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Work Remaining}{22}{subsection.5.4.2}%

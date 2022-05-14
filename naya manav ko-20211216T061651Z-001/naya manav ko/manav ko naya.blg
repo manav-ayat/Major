@@ -1,0 +1,94 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: manav ko naya.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--I didn't find a database entry for "ref"
+Name 10 in "Stoecklin, S.B. and Rolland, P. and Silue, Y. and Mailles, A. and Campese, C. and Simondon, A. and Mechain, M. and Meurice, L. and Nguyen, M. and Bassi, C.," has a comma at the end for entry ref3
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1049 of file plain.bst
+Warning--empty journal in ref6
+Warning--empty journal in ref9
+Warning--empty journal in ref13
+Warning--empty journal in ref12
+Warning--empty year in ref12
+Warning--empty journal in ref10
+Warning--empty journal in ref18
+Warning--empty journal in ref16
+Warning--empty journal in ref11
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Ozturk, T.; Talo, M.; Yildirim, E.A.; Baloglu, U.B.; Yildirim, O.; Acharya, U.R." for entry ref20
+while executing---line 1090 of file plain.bst
+Warning--empty journal in ref20
+Warning--empty journal in ref15
+Warning--empty journal in ref14
+Name 10 in "Stoecklin, S.B. and Rolland, P. and Silue, Y. and Mailles, A. and Campese, C. and Simondon, A. and Mechain, M. and Meurice, L. and Nguyen, M. and Bassi, C.," has a comma at the end for entry ref3
+while executing---line 1090 of file plain.bst
+Warning--empty journal in ref17
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Zhang, J.; Xie, Y.; Li, Y.; Shen, C.; Xia, Y" for entry ref19
+while executing---line 1090 of file plain.bst
+Warning--empty journal in ref19
+You've used 18 entries,
+            2118 wiz_defined-function locations,
+            590 strings with 7288 characters,
+and the built_in function-call counts, 6590 in all, are:
+= -- 610
+> -- 420
+< -- 3
++ -- 167
+- -- 148
+* -- 466
+:= -- 1131
+add.period$ -- 53
+call.type$ -- 18
+change.case$ -- 128
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 240
+empty$ -- 403
+format.name$ -- 148
+if$ -- 1329
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 18
+newline$ -- 92
+num.names$ -- 36
+pop$ -- 144
+preamble$ -- 1
+purify$ -- 110
+quote$ -- 0
+skip$ -- 197
+stack$ -- 0
+substring$ -- 289
+swap$ -- 56
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 72
+warning$ -- 14
+while$ -- 47
+width$ -- 20
+write$ -- 177
+(There were 16 error messages)

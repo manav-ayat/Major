@@ -1,0 +1,88 @@
+\begin{thebibliography}{10}
+
+\bibitem{ref0}
+World~Health Organization et~al.
+\newblock Covid-19 weekly epidemiological update, 25 may 2021.
+\newblock 2021.
+
+\bibitem{ref1}
+Prof. Dr. Subhash~Prasad Acharya and Dr.Hemraj Paneru.
+\newblock Icu design for covid19.
+\newblock {\em Intermin Protocol for COVID19.}, 6(1):9, 2020.
+
+\bibitem{refa}
+Ludhmila~Abrah{\~a}o Hajjar, Isabela Bispo~Santos da~Silva~Costa,
+  Stephanie~Itala Rizk, Bruno Biselli, Brenno~Rizerio Gomes, Cristina~Salvadori
+  Bittar, Gisele~Queiroz de~Oliveira, Juliano~Pinheiro de~Almeida,
+  Mariana~Vieira de~Oliveira~Bello, Cibele Garzillo, et~al.
+\newblock Intensive care management of patients with covid-19: a practical
+  approach.
+\newblock {\em Annals of Intensive Care}, 11(1):1--17, 2021.
+
+\bibitem{ref2}
+Arthur~S Slutsky.
+\newblock History of mechanical ventilation. from vesalius to
+  ventilator-induced lung injury.
+\newblock {\em American journal of respiratory and critical care medicine},
+  191(10):1106--1115, 2015.
+
+\bibitem{ref3}
+Michael~G Seneff, Jack~E Zimmerman, William~A Knaus, Douglas~P Wagner, and
+  Elizabeth~A Draper.
+\newblock Predicting the duration of mechanical ventilation: the importance of
+  disease and patient characteristics.
+\newblock {\em Chest}, 110(2):469--479, 1996.
+
+\bibitem{ref4}
+John~J Marini.
+\newblock Dealing with the cards of covid-19.
+\newblock {\em Critical care medicine}, 48(8):1239--1241, 2020.
+
+\bibitem{ref5}
+Jeremy Zuckerberg, Mohammed Shaik, Keith Widmeier, Todd Kilbaugh, and Timothy~D
+  Nelin.
+\newblock A lung for all: Novel mechanical ventilator for emergency and
+  low-resource settings.
+\newblock {\em Life sciences}, 257:118113, 2020.
+
+\bibitem{ref6}
+Niloofar Mohammadzadeh, Marsa Gholamzadeh, Soheila Saeedi, and Sorayya Rezayi.
+\newblock The application of wearable smart sensors for monitoring the vital
+  signs of patients in epidemics: a systematic literature review.
+\newblock {\em Journal of ambient intelligence and humanized computing}, pages
+  1--15, 2020.
+
+\bibitem{ref7}
+Daniel Carter, Juraj Kolencik, and Juraj Cug.
+\newblock Smart internet of things-enabled mobile-based health monitoring
+  systems and medical big data in covid-19 telemedicine.
+\newblock {\em American Journal of Medical Research}, 8(1):20--29, 2019.
+
+\bibitem{ref8}
+Muhammad~EH Chowdhury, Amith Khandakar, Khawla Alzoubi, Samar Mansoor, Anas
+  M~Tahir, Mamun Bin~Ibne Reaz, and Nasser Al-Emadi.
+\newblock Real-time smart-digital stethoscope system for heart diseases
+  monitoring.
+\newblock {\em Sensors}, 19(12):2781, 2019.
+
+\bibitem{ref9}
+Pawel Elbanowski and Szajek Marcin.
+\newblock Ai-powered smart stethoscope revolutionizing remote medicine.
+\newblock {\em carfagno}, 9(14):1481, 2019.
+
+\bibitem{ref10}
+Matthew~J McAuliffe, Francois~M Lalonde, Delia McGarry, William Gandler, Karl
+  Csaky, and Benes~L Trus.
+\newblock Medical image processing, analysis and visualization in clinical
+  research.
+\newblock In {\em Proceedings 14th IEEE Symposium on Computer-Based Medical
+  Systems. CBMS 2001}, pages 381--386. IEEE, 2001.
+
+\bibitem{lastref}
+Andr{\'a}s Hajdu, J{\'a}nos Kormos, Zsolt Lencse, Lajos Tr{\'o}n, and
+  Mikl{\'o}s Emri.
+\newblock The" medip-platform independent software system for medical image
+  processing" project.
+\newblock {\em J. Univers. Comput. Sci.}, 12(9):1229--1239, 2006.
+
+\end{thebibliography}
